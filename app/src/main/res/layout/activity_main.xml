@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <Button
+        android:text="1"
+        android:id="@+id/btn_1"
+        android:onClick="getOnclick"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+    <Button
+        android:text="2"
+        android:id="@+id/btn_2"
+        android:onClick="getOnclick"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+    <Button
+        android:text="3"
+        android:id="@+id/btn_3"
+        android:onClick="getOnclick"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+    <Button
+        android:text="4"
+        android:id="@+id/btn_4"
+        android:onClick="getOnclick"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+    <Button
+        android:text="5"
+        android:onClick="getOnclick"
+        android:id="@+id/btn_5"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+
+
+
+</LinearLayout>
